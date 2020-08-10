@@ -1,0 +1,236 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+
+html, body{ 
+    margin: 0;
+}
+
+header{
+    background-color: rgb(233, 37, 37);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 110px;
+    
+    position: absolute;
+   
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    margin-top: 0px;
+
+}
+li{
+    float: left;
+    list-style:none;
+    padding: 20px 10px 20px 10px;
+}
+li:hover{
+    background-color: rgb(128, 128, 151);
+}
+#imagem_fundo{
+    background: url(imagens/3o.jpg);
+    height:100% ;
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    
+     padding-top: 8%;
+     font-size:40px;
+     font-family: 'Source Serif Pro', serif;
+     color:white;
+     }
+
+#subtitulo{
+    color:white;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+    font-family: 'Source Serif Pro', serif;
+}
+#acao{
+    color:rgb(212, 201, 201);
+    border: 2px rgb(252, 245, 245);
+    padding: 10px 20px 10px 20px ;
+}
+#acao:hover{
+    background-color: rgb(128, 128, 151);
+}
+
+.icone{
+    width: 51px ;
+}
+#ODS {
+    background-color: rgb(224, 215, 215);
+    padding: 20px;
+}
+#selecao{
+    padding: 20px;
+    background-color: grey;
+   
+
+}
+#indiferenca{
+   padding: 20px;
+   background-color:black;
+   color:rgb(219, 203, 203);
+   
+}
+.imgind{
+    width: 70%;
+    height: 60%;
+    padding-left: 175px;
+    
+}
+#sobre{
+    background-color:grey;
+    ;
+    padding: 20px;
+
+}
+#video{
+    background-color:rgb(224, 215, 215); 
+    padding: 20px;
+    
+   
+    }
+    
+.aninha {
+    margin-left: 345px;
+    margin-right: 318px;
+    
+}
+
+
+#ana{
+    width: 50%;
+    width: 350px;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+section{
+      padding: 2opx;
+      float: left;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+    
+}
+.colunatres{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 20%;
+}
+.colunad{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+   
+}
+footer{
+    background-color: rgb(162, 162, 218);
+    float:left;
+    width: 100%;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+     
+    } 
+    .coluna, .colunatres, .colunad{
+        display: block;   
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+        
+    }
+    #titulo{
+        padding-top: 120px;
+        color:white;
+        font: 17px;
+        width: 100%;
+    }
+    
+   
+    #imigind{
+        margin-left: 10px;
+        width: 50%;
+    }
+    #ODS{
+        width: 100%;
+        padding: 0px;
+       
+    }
+    #selecao{
+        width: 100%;
+        padding: 0px;
+    }
+    #indiferenca{
+        width: 100%;
+        padding: 0px;
+    }
+    #video{
+        width: 100%;
+        padding: 0px;
+    }
+    #sobre{
+        width: 100%;
+        padding: 0px;
+    }
+    footer{
+        width: 100%;
+    
+    }
+    #video{
+        width: 100%;
+        
+    }
+    .aninha{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .imgind{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .aaninha{
+        width: 100%;
+    }
+    #imagem_fundo{
+        width: 100%;
+        padding: 0px;
+    }
+
+}
